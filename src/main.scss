@@ -1,0 +1,71 @@
+$blu: #1976D2;
+$red: #F11345;
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background: url('./images/bg.jpg');
+    color: white;
+}
+
+.incBox {
+    margin-top: 30px;
+    border: 2px solid $blu;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.incBox__text {
+    height: 80px;
+    font-size: 50px;
+    border: 2px solid $blu;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.incBox__text {
+    height: 80px;
+    font-size: 45px;
+    border: 2px solid $blu;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.incBox__text_red {
+    color: $red;
+}
+
+.btnBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 25px;
+    border: 2px solid $blu;
+    border-radius: 10px;
+}
+
+.btnBox__set {
+    padding: 22px 25px;
+}
+
+.button:disabled {
+    background: #034EAA !important;
+    color: white !important;
+}
+
+.maxValue {
+    color: #F11345;
+}
+
+input {
+    color: white !important;
+}
+
+.MuiFormControl-root {
+    width: 100%;
+}
