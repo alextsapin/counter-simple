@@ -1,2 +1,2 @@
-# Counter-1
-Счетчик № 1
+# Simple counter
+Простой счетчик на React
